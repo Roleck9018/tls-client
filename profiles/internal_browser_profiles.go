@@ -5,7 +5,7 @@ import (
 	tls "github.com/bogdanfinn/utls"
 )
 
-var Chrome_139_PSK_MLKEM = ClientProfile{
+var Chrome_139 = ClientProfile{
 	clientHelloId: tls.ClientHelloID{
 		Client:               "Chrome",
 		RandomExtensionOrder: false,
